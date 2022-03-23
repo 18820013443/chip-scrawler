@@ -24,8 +24,8 @@ PASSWORD = 'yy11YY99,'
 def GetParams(osType):
     CHROME_PATH, USER_DATA_DIR = '', ''
     if osType == 'Win':
-        CHROME_PATH = "kk"
-        USER_DATA_DIR = 'kk'
+        CHROME_PATH = r'C:\Program Files (x86)\Google\Chrome\Application'
+        USER_DATA_DIR = r'C:\Work Personal\AutomationProfile'
     elif osType == 'Mac':
         CHROME_PATH = "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
         USER_DATA_DIR = '/Users/kaitang/Code-Projects/chip-scrawler/ChromeConfig'
